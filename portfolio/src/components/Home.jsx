@@ -12,11 +12,13 @@ export default class Home extends Component {
         return (
             <div>
                 <header className='header'>
-                    <div>Me</div>
                     <div>
+
+                        <div>Me</div>
                         <div>Projects</div>
                         <div>Resume</div>
                         <div>Contact</div>
+
                     </div>
                 </header>
 

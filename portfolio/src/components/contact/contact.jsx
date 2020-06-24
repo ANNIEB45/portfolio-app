@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 
+import './contact.css'
+
 export default class contact extends Component {
     render() {
         return (
-            <div>
+            <div className='contact'>
                 <h1>This is the contact Page</h1>
             </div>
         )
