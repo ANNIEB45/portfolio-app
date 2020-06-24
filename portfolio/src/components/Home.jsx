@@ -11,7 +11,15 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                <header className='header'>This is the header</header>
+                <header className='header'>
+                    <div>Me</div>
+                    <div>
+                        <div>Projects</div>
+                        <div>Resume</div>
+                        <div>Contact</div>
+                    </div>
+                </header>
+
                 <About />
                 <Projects />
                 <Resume />

@@ -5,8 +5,8 @@ import './footer.css'
 export default class footer extends Component {
     render() {
         return (
-            <div>
-                <footer className='footer'>This is the footer</footer>
+            <div className='footer'>
+                <footer >This is the footer</footer>
             </div>
         )
     }
