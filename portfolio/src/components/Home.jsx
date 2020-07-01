@@ -21,7 +21,7 @@ export default class Home extends Component {
 
                     </div>
                 </header>
-
+                
                 <About />
                 <Projects />
                 <Resume />
