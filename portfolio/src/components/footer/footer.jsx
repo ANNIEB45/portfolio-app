@@ -12,6 +12,7 @@ export default class footer extends Component {
         return (
             // <div className='footer'>
             <footer className='footer'>
+                <div className='signature'>Annie B.</div>
                 <div className='social-links'>
                     <div className='linkedin-wrapper'>
                         <a href='https://www.linkedin.com/in/annie-t-bellefleur-04a696a7/' target='_blank' rel="noopener noreferrer">
