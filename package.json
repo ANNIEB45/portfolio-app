@@ -4,14 +4,16 @@
   "description": "my portfolio site which showcase all my work, resume, skill and blgo",
   "main": "index.js",
   "dependencies": {
+    "concurrently": "^5.2.0",
     "express": "^4.17.1",
+    "mongoose": "^5.9.21",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {},
   "scripts": {
     "dev": "concurrently \"nodemon server.js\" \"cd ./client  && npm start \" ",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "postinstall": "cd client && npm install && npm run build"
   },
   "engines": {
