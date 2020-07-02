@@ -12,4 +12,6 @@ mongoose.connect(connectionString)
         console.log(err)
     })
 
-    module.exports = mongoose
+module.exports = mongoose
+    
+// WORKING
