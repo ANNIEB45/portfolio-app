@@ -3,11 +3,11 @@ import React, { Component } from 'react'
 import './contact.css'
 
 export default class contact extends Component {
-    state = {
-        name: '',
-        email: '',
-        message: ''
-    }
+    // state = {
+    //     name: '',
+    //     email: '',
+    //     message: ''
+    // }
 
     // componentDidMount(){
         
@@ -20,7 +20,9 @@ export default class contact extends Component {
     render() {
         return (
             <div className='contact'>
+
                 <div>Contact Me</div>
+
                 <form>
                     <label>Name
                      <input
@@ -40,6 +42,7 @@ export default class contact extends Component {
                             name='message'
                         />
                     </label>
+                    <input type="submit" value='Send' />
                 </form>
 
 
