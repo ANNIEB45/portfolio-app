@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Header from './header/header'
 import About from './about/about'
 import Projects from './projects/projects'
 import Resume from './resume/resume'
@@ -11,17 +12,7 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                <header className='header'>
-                    <div>
-
-                        <div>Me</div>
-                        <div>Projects</div>
-                        <div>Resume</div>
-                        <div>Contact</div>
-
-                    </div>
-                </header>
-                
+                <Header />
                 <About />
                 <Projects />
                 <Resume />
