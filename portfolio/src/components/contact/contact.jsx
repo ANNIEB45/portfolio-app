@@ -23,25 +23,27 @@ export default class contact extends Component {
 
                 <div>Contact Me</div>
 
-                <form>
-                    <label>Name
+                <form
+                onSubmit={this.handleOnSubmit} method='POST'>
+                    <label for='name'>Name</label>
                      <input
                             type='text'
                             name='name'
                         />
-                    </label>
-                    <label>Email
+                    
+                    <label for='InputEmail'>Email </label>
                      <input
-                            type='text'
+                            type='email'
                             name='email'
                         />
-                    </label>
-                    <label>Message
-                     <input
+                   
+                    <label for='message'>Message</label>
+                     <textarea
                             type='text'
-                            name='message'
-                        />
-                    </label>
+                        name='message'
+                        rows='5'
+                        ></textarea>
+                    
                     <input type="submit" value='Send' />
                 </form>
 

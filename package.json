@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "my portfolio site which showcase all my work, resume, skill and blgo",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "concurrently \"nodemon server.js\" \"cd ./client  && npm start \" ",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "postinstall": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANNIEB45/portfolio-app.git"
+  },
+  "author": "Annie T. Bellefleur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ANNIEB45/portfolio-app/issues"
+  },
+  "homepage": "https://github.com/ANNIEB45/portfolio-app#readme"
+}
