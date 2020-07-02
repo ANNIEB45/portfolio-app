@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.top-signature{
+    margin-left: 50px;
+}
+
+.header-links{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header .signature{
+    font-family: 'Marck Script', cursive;
+    font-size: 77px;
+    /* text-decoration: line-through; */
+
+}
