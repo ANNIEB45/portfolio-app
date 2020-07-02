@@ -22,9 +22,13 @@
 }
 
 .header-links{
-    margin-right: 30px;
+    margin-right: 60px;
     display: flex;
     flex-direction: row;
+}
+
+.header-about{
+    margin-right: 20px;
 }
 
 .header-project{
