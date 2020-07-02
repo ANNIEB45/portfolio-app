@@ -11,9 +11,9 @@ export default class header extends Component {
                 </div>
 
                 <div className='header-links'>
-                    <div>Projects</div>
-                    <div>Resume</div>
-                    <div>Contact</div>
+                    <div className='header-project'>Projects</div>
+                    <div className='header-resume'>Resume</div>
+                    <div className='header-contact'>Contact</div>
                 </div>
 
 

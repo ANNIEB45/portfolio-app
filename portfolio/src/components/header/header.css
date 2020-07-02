@@ -14,15 +14,23 @@
     margin-left: 50px;
 }
 
+.header .signature{
+    font-family: 'Marck Script', cursive;
+    font-size: 77px;
+    /* text-decoration: line-through; */
+
+}
+
 .header-links{
     margin-right: 30px;
     display: flex;
     flex-direction: row;
 }
 
-.header .signature{
-    font-family: 'Marck Script', cursive;
-    font-size: 77px;
-    /* text-decoration: line-through; */
+.header-project{
+    margin-right: 20px;
+}
 
+.header-resume{
+    margin-right: 20px;
 }
