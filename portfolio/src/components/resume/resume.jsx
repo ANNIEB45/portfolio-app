@@ -7,7 +7,7 @@ export default class resume extends Component {
         return (
             <div className='resume'>
                 {/* <div>picture goes here</div> */}
-                <div>Annie Bellelfeur's Resume</div>
+                <h1>Resume</h1>
                 <div></div>
             </div>
         )
