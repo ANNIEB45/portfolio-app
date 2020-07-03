@@ -11,11 +11,11 @@ export default class contact extends Component {
     // }
 
     // componentDidMount(){
-        
+
     // }
 
     // handeleOnSubmit = () => {
-        
+
     // }
 
     render() {
@@ -25,26 +25,32 @@ export default class contact extends Component {
                 <div>Contact Me</div>
 
                 <form
-                onSubmit={this.handleOnSubmit} method='POST'>
-                    <label htmlFor='name'>Name</label>
-                     <input
-                            type='text'
-                            name='name'
-                        />
+                    onSubmit={ this.handleOnSubmit }
+                    method='POST'>
                     
-                    <label htmlFor='InputEmail'>Email </label>
-                     <input
-                            type='email'
-                            name='email'
-                        />
-                   
+                    <label htmlFor='name'>Name</label>
+                    <input
+                        id='name'
+                        type='text'
+                        name='name'
+                    />
+
+                    <label htmlFor='InputEmail'>Email</label>
+                    <input
+                        id='Inputemail'
+                        type='email'
+                        name='email'
+                        placeholder='Enter Your Email'
+                    />
+
                     <label htmlFor='message'>Message</label>
-                     <textarea
-                            type='text'
+                    <textarea
+                        id='message'
+                        type='text'
                         name='message'
                         rows='5'
-                        ></textarea>
-                    
+                    ></textarea>
+
                     <input type="submit" value='Send' />
                 </form>
 

@@ -1,7 +1,6 @@
 const express = require('express')
 const emailModel = require('../models/email')
-const email = require('../models/email')
-
+const nodemailer = require('nodemailer')
 const emailRouter = express.Router()
 
 
@@ -36,6 +35,27 @@ emailRouter.get('/:emailId', (req, res) => {
 //Create(Post)
 emailRouter.post('/', (req, res) => {
     emailModel.createEmail(req.body)
+    // const name = req.body.name
+    // const email = req.body.email
+    // const message = req.body.messageHtml
+    let mail = {
+        from: name,
+        to: 'devbanannie@gmail.com',
+        subject: "Contact form request",
+        html: message
+    }
+    let transporter = nodemailer.createTransport(transport)
+    transporter.sendMail(mail, (err, data) => {
+        if (err) {
+            res.json({
+                msg: 'fail'
+            })
+        } else {
+            res.json({
+                msg: 'success'
+            })
+        }
+    })
         .then(() => {
             res.json('created')
         })
