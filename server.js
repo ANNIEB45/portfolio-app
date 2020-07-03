@@ -4,13 +4,13 @@ const emailRouter = require('./controllers/email.js')
 const app = express()
 
 app.use(express.json())
-app.use(express.static(__dirname + '/client/build/'))
+app.use(express.static(__dirname + '/portfolio/build/'))
 
 app.use('/api/email', emailRouter)
 
 
 app.get('/', (req,res) => {
-    res.sendFile(__dirname + '/client/build/index.html')
+    res.sendFile(__dirname + '/portfolio/build/index.html')
   })
 
 const PORT = process.env.PORT || 3000
