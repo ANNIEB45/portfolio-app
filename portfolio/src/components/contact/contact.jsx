@@ -26,19 +26,19 @@ export default class contact extends Component {
 
                 <form
                 onSubmit={this.handleOnSubmit} method='POST'>
-                    <label for='name'>Name</label>
+                    <label htmlFor='name'>Name</label>
                      <input
                             type='text'
                             name='name'
                         />
                     
-                    <label for='InputEmail'>Email </label>
+                    <label htmlFor='InputEmail'>Email </label>
                      <input
                             type='email'
                             name='email'
                         />
                    
-                    <label for='message'>Message</label>
+                    <label htmlFor='message'>Message</label>
                      <textarea
                             type='text'
                         name='message'
