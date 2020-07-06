@@ -1,3 +1,4 @@
+// require express package, email controller, nodemailer package, config file
 const express = require('express')
 const emailRouter = require('./controllers/email.js')
 
@@ -6,9 +7,12 @@ const config = require('./config.js')
 
 const app = express()
 
+// Data parsing
+app.use(express.urlencoded({extended: false}))
 app.use(express.json())
 app.use(express.static(__dirname + '/portfolio/build/'))
 
+// api route 
 app.use('/api/email', emailRouter)
 
 

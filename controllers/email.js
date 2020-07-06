@@ -38,24 +38,24 @@ emailRouter.post('/', (req, res) => {
     // const name = req.body.name
     // const email = req.body.email
     // const message = req.body.messageHtml
-    let mail = {
-        from: name,
-        to: 'devbanannie@gmail.com',
-        subject: "Contact form request",
-        html: message
-    }
-    let transporter = nodemailer.createTransport(transport)
-    transporter.sendMail(mail, (err, data) => {
-        if (err) {
-            res.json({
-                msg: 'fail'
-            })
-        } else {
-            res.json({
-                msg: 'success'
-            })
-        }
-    })
+    // let mail = {
+    //     from: name,
+    //     to: 'devbanannie@gmail.com',
+    //     subject: "Contact form request",
+    //     html: message
+    // }
+    // let transporter = nodemailer.createTransport(transport)
+    // transporter.sendMail(mail, (err, data) => {
+    //     if (err) {
+    //         res.json({
+    //             msg: 'fail'
+    //         })
+    //     } else {
+    //         res.json({
+    //             msg: 'success'
+    //         })
+    //     }
+    // })
         .then(() => {
             res.json('created')
         })
