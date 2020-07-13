@@ -6,3 +6,23 @@
     background-color: antiquewhite;
     margin: 0 auto;
 }
+
+.about-paragraph{
+    font-family: fantasy;
+    width: 26%;
+    margin: 0 30px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 22px;
+    border: 2px solid blueviolet;
+}
+
+.about-paragraph p{
+    line-height: 26px;
+    text-align: center;
+}
+
+.skills{
+    border: 2px solid;
+    margin: 0 30px;
+}
