@@ -20,23 +20,23 @@ app.get('/', (req,res) => {
     res.sendFile(__dirname + '/portfolio/build/index.html')
 })
   
-let transport = {
-  host: 'smtp.gmail.com',
-  aut: {
-    user: config.USER,
-    pass: config.PASS
-  }
-}
+// let transport = {
+//   host: 'smtp.gmail.com',
+//   aut: {
+//     user: config.USER,
+//     pass: config.PASS
+//   }
+// }
 
-let transporter = nodemailer.createTransport(transport)
+// let transporter = nodemailer.createTransport(transport)
 
-transporter.verify((error, success) => {
-  if (error) {
-    console.log(error)
-  } else {
-    console.log('Sever is ready to take message')
-  }
-})
+// transporter.verify((error, success) => {
+//   if (error) {
+//     console.log(error)
+//   } else {
+//     console.log('Sever is ready to take message')
+//   }
+// })
 
 // app.get('/', (req, res) => {
 //     res.send('You are connected')
