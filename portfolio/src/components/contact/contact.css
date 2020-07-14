@@ -12,3 +12,33 @@
     flex-direction: column;
     margin: 0 30px;
 }
+
+.images{
+    display: flex;
+    margin-left: 30px;
+    margin: 10px 0;
+    width: 40%;
+    position: relative !important;
+
+}
+
+.contact .bottom-img{
+    /* width: 40%;
+    height: 200px; */
+    margin-left: 60px;
+    /* position: relative; */
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    vertical-align: middle;
+    width: 70%;
+}
+.top-img{
+    /* height: 153px; */
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60.66%;
+    border: 0;
+}
