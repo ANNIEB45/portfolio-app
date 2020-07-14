@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import GitHubIcon from '@material-ui/icons/GitHub';
+// import LinkedInIcon from '@material-ui/icons/LinkedIn';
+// import TwitterIcon from '@material-ui/icons/Twitter';
+// import GitHubIcon from '@material-ui/icons/GitHub';
 
 
 import './footer.css'
@@ -14,7 +14,7 @@ export default class footer extends Component {
             <footer className='footer'>
                 <div className='signature'>Annie B.</div>
 
-                <div>
+                {/* <div>
                     <div className='social-title'>Follow Me</div>
                     <div className='social-links'>
 
@@ -36,7 +36,7 @@ export default class footer extends Component {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className='resources-container'>
                     <div>Blog</div>
