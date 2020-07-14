@@ -1,0 +1,9 @@
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+}

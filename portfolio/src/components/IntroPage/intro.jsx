@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 
+import './intro.css'
+
 export default class intro extends Component {
     render() {
         return (
-            <div>
+            <div className="intro">
                 <div>
                     <h1>Hi, I'm Annie</h1>
                     <h3>Yes, I'm ok</h3>
