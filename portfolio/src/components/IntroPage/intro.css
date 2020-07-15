@@ -29,8 +29,9 @@
 }
 
 .intro-paragraph h1 span:hover{
-    background-color: burlywood;
+    background-color: yellow;
     color: black;
+    opacity: 0.5;
 }
 
 .scrolling{
