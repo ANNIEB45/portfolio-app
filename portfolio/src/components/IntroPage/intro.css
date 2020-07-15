@@ -6,4 +6,42 @@
     width: auto;
     margin: 0 auto;
     height: auto;
+
+    /* background-image: url("https://bit.ly/3fsJ9S8");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
 }
+
+.scrolling{
+    background-image: url("https://bit.ly/3fsJ9S8");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 20%;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    max-width: none;
+    opacity: 0.8;
+}
+
+/* .intro img{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 35%;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    max-width: none;
+    opacity: 0.8;
+} */
