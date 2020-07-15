@@ -1,10 +1,11 @@
 .about{
     height: auto;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     background-color: antiquewhite;
     margin: 0 auto;
+    margin-bottom: 66px;
 }
 
 .about-paragraph{
@@ -29,7 +30,8 @@
 .about img{
     height: auto;
     max-width: 100%;
-    width: 50%;
+    /* width: 50%; */
     position: relative;
-    right: 82px;
+    right: 145px;
+    /* opacity: 0.8; */
 }

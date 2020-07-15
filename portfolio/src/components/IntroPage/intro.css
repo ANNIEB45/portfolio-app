@@ -5,31 +5,48 @@
     align-items: center;
     width: auto;
     margin: 0 auto;
-    height: auto;
+    height: auto;   
+}
 
-    /* background-image: url("https://bit.ly/3fsJ9S8");
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    
+.intro-paragraph{
+    width: auto;
+    position: absolute;
+    right: 745px;
+    /* top: 215px; */
+    font-size: 28px;
+    margin: 0 20px;
+}
+
+.intro-paragraph h1{
+    line-height: 88px;
+    letter-spacing: 11px;
+    font-size: 75px;
+}
+
+.intro-paragraph h1 span{
+    background-color: black;
+    color: white;
+}
+
+.intro-paragraph h1 span:hover{
+    background-color: burlywood;
+    color: black;
 }
 
 .scrolling{
     background-image: url("https://bit.ly/3fsJ9S8");
-    height: 500px;
+    height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    left: 20%;
+    left: 25%;
     z-index: -1;
-    display: block;
+    /* display: block; */
     width: 100%;
     max-width: none;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 /* .intro img{

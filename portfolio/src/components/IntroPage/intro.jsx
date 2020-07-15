@@ -7,10 +7,12 @@ export default class intro extends Component {
         return (
             <div className="intro">
                 <div className='intro-paragraph'>
-                    <div>
-                        <h1>Hi, I'm Annie</h1>
-                        <h5>Software Developer</h5>
-                    </div>
+
+                    <h1>Hi...
+                    <br />I'm <span>Annie</span></h1>
+                    {/* <h2>Yes, I am ok...</h2> */}
+                    <p>Software Developer, food enthusiast, passionate smiler</p>
+
                 </div>
                 <div className="scrolling"></div>
 
