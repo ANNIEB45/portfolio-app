@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Education from './education'
+import Experience from './experience'
 import { Timeline, TimelineItem, TimelineConnector, TimelineSeparator, TimelineContent, TimelineDot } from '@material-ui/lab'
 
 import './resume.css'
@@ -9,54 +11,19 @@ export default class resume extends Component {
             <div className='resume'>
                 <div className="section1">
                     <div>
-
                         <h3>Experience</h3>
-
                         <div>
-                            <Timeline align='left'>
-                                <TimelineItem>
-                                    <TimelineSeparator>
-                                        <TimelineDot />
-                                        <TimelineConnector />
-                                    </TimelineSeparator>
-                                    <div>
-                                        <TimelineContent>Grady Hospital</TimelineContent>
-                                        <div>
-                                            <TimelineContent>Atlanta, GA </TimelineContent>
-                                            <TimelineContent>2012-2014</TimelineContent>
-                                        </div>
-                                        <TimelineContent>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </TimelineContent>
-                                    </div>
-                                </TimelineItem>
-                            </Timeline>
-
-
+                            <Experience />
                         </div>
-
                     </div>
+
                     <div>
                         <h3>Education</h3>
-
                         <div>
-                            <Timeline align='left'>
-                                <TimelineItem>
-                                    <TimelineSeparator>
-                                        <TimelineDot />
-                                        <TimelineConnector />
-                                    </TimelineSeparator>
-                                    <div>
-                                        <TimelineContent>Grady Hospital</TimelineContent>
-                                        <div>
-                                            <TimelineContent>Atlanta, GA </TimelineContent>
-                                            <TimelineContent>2012-2014</TimelineContent>
-                                        </div>
-                                        <TimelineContent>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </TimelineContent>
-                                    </div>
-                                </TimelineItem>
-                            </Timeline>
+                            <Education />
                         </div>
-
                     </div>
+
                 </div>
                 <div className='section2'>
                     <ul>Skills
