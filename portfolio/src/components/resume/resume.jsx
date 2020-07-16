@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Education from './education'
 import Experience from './experience'
+import Skills from './skills'
 import { Timeline, TimelineItem, TimelineConnector, TimelineSeparator, TimelineContent, TimelineDot } from '@material-ui/lab'
 
 import './resume.css'
@@ -26,10 +27,7 @@ export default class resume extends Component {
 
                 </div>
                 <div className='section2'>
-                    <ul>Skills
-                        <li>JavaScript</li>
-                        <li>Ruby on Rails</li>
-                    </ul>
+                    <Skills />
                 </div>
 
             </div>
