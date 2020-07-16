@@ -7,7 +7,7 @@ export default class about extends Component {
         return (
             <div className='about'>
                 <div>
-                    <div></div>
+                    
                     <img src="https://cdn2.lamag.com/wp-content/uploads/sites/6/2017/07/issa.jpg" alt="placeholder of Issa Rae" />
                 </div>
                 <div className='about-paragraph'>
