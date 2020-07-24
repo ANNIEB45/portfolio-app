@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Social from './social'
+import emailjs from 'emailjs'
 import axios from 'axios'
 
 import './contact.css'
