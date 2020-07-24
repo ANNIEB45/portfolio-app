@@ -14,32 +14,47 @@ export default class contact extends Component {
         }
     }
 
-    componentDidMount(){
-        this.getAllEmails()
-    }
+    // componentDidMount(){
+    //     this.getAllEmails()
+    // }
 
-    getAllEmails = async () => {
-        try {
-            const res = await axios.get('/api/email')
-            const newState = { ...this.state.newEmail }
-            newState.allEmails = res.data 
-            this.setState(newState)
-        } catch (err) {
-            console.log('failed to get all email')
-            console.log(err)
-        }
-    }
+    // getAllEmails = async () => {
+    //     try {
+    //         // const res = await axios.get('/api/email')
+    //         const newState = { ...this.state.newEmail }
+    //         newState.allEmails = res.data 
+    //         this.setState(newState)
+    //     } catch (err) {
+    //         console.log('failed to get all email')
+    //         console.log(err)
+    //     }
+    // }
 
     handeleOnSubmit = async(evt) => {
         evt.preventDefault()
         console.log('i was clicked')
-        try {
-            await axios.post('api/email', this.state.newEmail)
-            this.getAllEmails()
-        } catch (err) {
-            console.log('failed to create email')
-            console.log(err)
-        }
+        // try {
+        //     await axios.post('api/email', this.state.newEmail)
+        //     this.getAllEmails()
+        // } catch (err) {
+        //     console.log('failed to create email')
+        //     console.log(err)
+        // }
+        
+        // let template_params = {
+        //     "user_email": "user_email_value",
+        //     "first_name": "first_name_value",
+        //     "last_name": "last_name_value",
+        //     "company_name": "company_name_value",
+        //     "subject": "subject_value",
+        //     "message": "message_value",
+        //     "user_name": "user_name_value"
+        //  }
+         
+        //  const service_id = "default_service";
+        //  const template_id = "portfolio_email";
+        //  emailjs.send(service_id, template_id, template_params);
+
     }
 
     handleOnChange = (evt) => {
