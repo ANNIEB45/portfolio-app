@@ -23,24 +23,26 @@
 
 .about-paragraph{
     width: 100%;
-    line-height: 22px;
     position: relative;
+    padding-left: 15px;
     padding-right: 15px;
-    padding-right: 15px;
-    margin-top: 1rem !important;
+    margin: 15px 0;
+}
+
+.paragraph-container{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin-bottom: 15px;
-    right: 41px;
     align-items: flex-start;
+    padding-left: 10px;
 }
 
 .about-paragraph p{
-    line-height: 26px;
-    text-align: center;
-    
+    text-align: left;
+    line-height: 30px;  
 }
+
+/* .cv-link{
+} */
 
 .image-container{
     display: flex;
