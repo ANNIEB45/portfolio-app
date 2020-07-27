@@ -13,5 +13,35 @@
     margin-bottom: 30px;
     /* width: 100%; */
     height: auto;
-    margin-top: 30px;
+    margin-top: 70px;
+    position: relative;
+    top: 75px;
+}
+
+.section2{
+    margin-top: 74px;
+}
+
+.section2 .skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-icon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.skills-icon img{
+    margin: 0 20px 25px 35px;
+    padding: 0 17px;
+    border: 3px solid gray;
+    width: 6%;
+    background-color: white;
+    position: relative;
+    left: 20px;
+    /* opacity: 0.7; */
 }
