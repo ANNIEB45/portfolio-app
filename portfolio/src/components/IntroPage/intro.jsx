@@ -14,7 +14,9 @@ export default class intro extends Component {
                     <p>Software Developer, Food Enthusiast, Committed Smiler</p>
 
                 </div>
-                <div className="scrolling"></div>
+                <div className="scrolling">
+                    {/* <img src="/IMG_0154.jpeg" alt=""/> */}
+                </div>
 
 
                 {/* <img src="https://bit.ly/3fsJ9S8" alt="placeholder of Kerry Washington" /> */ }
