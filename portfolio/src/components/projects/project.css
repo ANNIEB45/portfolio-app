@@ -8,3 +8,24 @@
     flex-direction: column;
 }
 
+.project-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 35px;
+
+}
+
+.project-container a{
+    margin: 20px 10px;
+    padding: 10px 0;
+    border: 6px solid gray;
+}
+
+.project-container img{
+    width: 250px;
+    height: 350px;
+}
+
