@@ -4,6 +4,7 @@ import About from './about/about'
 import Projects from './projects/projects'
 import Resume from './resume/resume'
 import Contact from './contact/contact'
+import Transition from './contactTransition/transition'
 import Footer from './footer/footer'
 import Intro from "./IntroPage/intro"
 
@@ -19,6 +20,7 @@ export default class Home extends Component {
                 <About />
                 <Resume />
                 <Projects />
+                <Transition />
                 <Contact />
                 <Footer />
 
