@@ -18,7 +18,7 @@ export default class experience extends Component {
                                 <TimelineContent>Atlanta, GA </TimelineContent>
                                 <TimelineContent>2018-2019</TimelineContent>
                             </div>
-                            <TimelineContent>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </TimelineContent>
+                            <TimelineContent>Provided quality service to customers with passion and efficiency. Work in conjunction with other teams to maintain functional and efficient operations of front desk. </TimelineContent>
                         </div>
                     </TimelineItem>
 
@@ -33,7 +33,7 @@ export default class experience extends Component {
                                 <TimelineContent>Atlanta, GA </TimelineContent>
                                 <TimelineContent>2016-2018</TimelineContent>
                             </div>
-                            <TimelineContent>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </TimelineContent>
+                            <TimelineContent>Collaborated with multi-departmental team to complete research and detail reporting of company policies and procedures. Accepted opportunity for mentoring students.</TimelineContent>
                         </div>
                     </TimelineItem>
 
@@ -48,7 +48,7 @@ export default class experience extends Component {
                                 <TimelineContent>Atlanta, GA </TimelineContent>
                                 <TimelineContent>2014-2016</TimelineContent>
                             </div>
-                            <TimelineContent>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </TimelineContent>
+                            <TimelineContent>Provided compassionate patient care using ethical medical reporting and testing and using critical and analytical thinking. </TimelineContent>
                         </div>
                     </TimelineItem>
                 </Timeline>
