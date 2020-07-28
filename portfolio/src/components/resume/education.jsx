@@ -17,7 +17,8 @@ export default class education extends Component {
                                 <TimelineContent>Atlanta, GA </TimelineContent>
                                 <TimelineContent>March 2020-June 2020</TimelineContent>
                             </div>
-                            <TimelineContent>Software Engineer Immersive <br /> 12-week, 500+ hour training program focused in Git/GitHub, HTML/CSS, JavaScript, MongoDB, SQL, Python, Django, React, Heroku, etc. </TimelineContent>
+                            <TimelineContent>Software Engineer Immersive Program.
+                                <br />  12-week, 500+ hour training program focused in Git/GitHub, HTML/CSS, JavaScript, MongoDB, SQL, Python, Django, React, Heroku, etc. </TimelineContent>
                         </div>
                     </TimelineItem>
 
@@ -32,7 +33,8 @@ export default class education extends Component {
                                 <TimelineContent>Atlanta, GA </TimelineContent>
                                 <TimelineContent>August 2012- September 2014</TimelineContent>
                             </div>
-                            <TimelineContent>A.S. Respiratory Therapy <br /> Dean's List </TimelineContent>
+                            <TimelineContent>AS Respiratory Therarpy
+                                <br /> Dean's List </TimelineContent>
                         </div>
                     </TimelineItem>
                 </Timeline>

@@ -70,8 +70,6 @@ export default class contact extends Component {
         return (
             <div className='contact'>
 
-                <div className='contact-text'>Let's Talk</div>
-
                 <form
                     onSubmit={ this.handleOnSubmit }
                     method='POST'>
