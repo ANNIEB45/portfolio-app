@@ -1,4 +1,4 @@
-module.exports = {
-    USER: 'devbanannie@gmail.com', 
-    PASS: 'code5285'
-}
+// module.exports = {
+//     USER: 'devbanannie@gmail.com', 
+//     PASS: 'code5285'
+// }
