@@ -1,46 +1,31 @@
 import React, { Component } from 'react'
 import Social from './social'
-import emailjs from 'emailjs'
 import axios from 'axios'
+import { Form, Col, Button } from 'react-bootstrap'
+import emailjs from "emailjs-com"
 
 import './contact.css'
 
 export default class contact extends Component {
     state = {
-        allEmails: [],
         newEmail: {
-            name: '',
+            firstName: '',
+            lastName: '',
+            companyName: '',
             email: '',
+            subject: '',
             message: ''
         }
     }
 
-    // componentDidMount(){
-    //     this.getAllEmails()
-    // }
 
-    // getAllEmails = async () => {
-    //     try {
-    //         // const res = await axios.get('/api/email')
-    //         const newState = { ...this.state.newEmail }
-    //         newState.allEmails = res.data 
-    //         this.setState(newState)
-    //     } catch (err) {
-    //         console.log('failed to get all email')
-    //         console.log(err)
-    //     }
-    // }
 
-    handeleOnSubmit = async(evt) => {
+
+
+    handeleOnSubmit = (evt) => {
         evt.preventDefault()
         console.log('i was clicked')
-        // try {
-        //     await axios.post('api/email', this.state.newEmail)
-        //     this.getAllEmails()
-        // } catch (err) {
-        //     console.log('failed to create email')
-        //     console.log(err)
-        // }
+
 
         // let template_params = {
         //     "user_email": "user_email_value",
@@ -51,10 +36,21 @@ export default class contact extends Component {
         //     "message": "message_value",
         //     "user_name": "user_name_value"
         //  }
-         
+
         //  const service_id = "default_service";
         //  const template_id = "portfolio_email";
         //  emailjs.send(service_id, template_id, template_params);
+
+        // resetForm = () => {
+        //     this.setState({
+        //         firstName: '',
+        //         lastName: '',
+        // companyName: '',
+        //         email: '',
+        //         subject: '',
+        //         message: ''
+        //     })
+        // }
 
     }
 
@@ -66,51 +62,83 @@ export default class contact extends Component {
     }
 
     render() {
-        const {email, name, message} = this.state.newEmail
+        const { firstName, lastName, companyName, subject, email, message } = this.state.newEmail
         return (
             <div className='contact'>
 
-                <form
-                    onSubmit={ this.handleOnSubmit }
-                    method='POST'>
-                    
-                    <label htmlFor='name'>Name</label>
-                    <input
-                        id='name'
-                        type='text'
-                        name='name'
-                        value={ name }
-                        placeholder='Name'
-                        onChange={this.handleOnChange}
-                    />
+                <Form onSubmit={ this.handeleOnSubmit}>
+                    <Form.Group controlId="formBasicName">
+                        <Form.Row>
+                            <Col>
+                                <Form.Control
+                                    type="text"
+                                    name="firstName"
+                                    value={ firstName }
+                                    onChange={ this.handleOnChange }
+                                    placeholder="First Name" />
+                            </Col>
+                            <Col>
+                                <Form.Control
+                                    type="text"
+                                    name="lastName"
+                                    value={ lastName }
+                                    onChange={ this.handleOnChange }
+                                    placeholder="Last Name" />
+                            </Col>
+                        </Form.Row>
+                    </Form.Group>
 
-                    <label htmlFor='InputEmail'>Email</label>
-                    <input
-                        id='Inputemail'
-                        type='email'
-                        name='email'
-                        placeholder='Enter Your Email'
-                        value={ email }
-                        onChange={this.handleOnChange}
-                    />
+                    <Form.Group controlId="formBasicCompany">
+                        <Form.Label></Form.Label>
+                        <Form.Control
+                            type="text"
+                            name="companyNamne"
+                            value={ companyName }
+                            onChange={ this.handleOnChange }
+                            placeholder="Company Name" />
+                    </Form.Group>
 
-                    <label htmlFor='message'>Message</label>
-                    <textarea
-                        id='message'
-                        type='text'
-                        name='message'
-                        rows='5'
-                        value={ message }
-                        onChange={this.handleOnChange}
-                    ></textarea>
+                    <Form.Group controlId="formBasicEmail">
+                        <Form.Label></Form.Label>
+                        <Form.Control
+                            type="email"
+                            name="email"
+                            value={ email }
+                            onChange={ this.handleOnChange }
+                            placeholder="name@email.com" />
+                    </Form.Group>
 
-                    <input type="submit" value='Send' />
-                </form>
+                    <Form.Group controlId="formBasicSubject">
+                        <Form.Label></Form.Label>
+                        <Form.Control
+                            type="text"
+                            name="subject"
+                            value={ subject }
+                            onChange={ this.handleOnChange }
+                            placeholder="Subject" />
+                    </Form.Group>
+
+
+                    <Form.Group controlId="formBasicMessage">
+                        <Form.Label></Form.Label>
+                        <Form.Control
+                            as="textarea"
+                            rows="3"
+                            name="message"
+                            value={ message }
+                            onChange={ this.handleOnChange }
+                            placeholder="Message" />
+                    </Form.Group>
+
+                    <Button variant="primary" type="submit" >Submit</Button>
+                </Form>
+
                 <Social />
+
                 <div className='images'>
-                    {/* <img className="bottom-img" src="https://bit.ly/2OmNqdV" alt="" /> */}
-                    {/* <img className="top-img" src="" alt="" /> */}
-                    </div>
+                    {/* <img className="bottom-img" src="https://bit.ly/2OmNqdV" alt="" /> */ }
+                    {/* <img className="top-img" src="" alt="" /> */ }
+                </div>
 
 
             </div>
