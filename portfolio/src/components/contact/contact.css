@@ -2,7 +2,7 @@
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: yellow;
     margin: 0 auto;
@@ -28,9 +28,45 @@
 .contact form{
     display: flex;
     flex-direction: column;
-    margin: 0 30px;
+    margin: 20px;
+    width: 50%;
+    position: relative;
+    right: 77px;
 }
 
+.name-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    border-bottom: 2px solid gray;
+}
+
+#firstName{
+    border: none;
+    background: none;
+    width: 100%;
+}
+
+#lastName{
+    border: none;
+    background: none;
+    width: 100%;
+}
+
+#companyName{
+    background: none;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+}
+
+.social-container{
+    position: relative;
+    right: 75px;
+}
 .images{
     display: flex;
     margin-left: 30px;

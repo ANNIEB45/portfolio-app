@@ -62,10 +62,11 @@ export default class contact extends Component {
                 <form
                     onSubmit={ this.handleOnSubmit }
                     method='POST'>
-
-                    <label htmlFor='name'>Name</label>
+                    
+                    <div className="name-container">
+                    {/* <label htmlFor='name'> First Name</label> */}
                     <input
-                        id='name'
+                        id='firstName'
                         type='text'
                         name='firstName'
                         value={ firstName }
@@ -73,17 +74,18 @@ export default class contact extends Component {
                         onChange={ this.handleOnChange }
                     />
 
-                    <label htmlFor='lastName'>Last Name</label>
+                    {/* <label htmlFor='lastName'>Last Name</label> */}
                     <input
-                        id='lastnName'
+                        id='lastName'
                         type='text'
                         name='lastName'
                         value={ lastName }
                         placeholder=' Last Name'
                         onChange={ this.handleOnChange }
-                    />
+                        />
+                        </div>
 
-                    <label htmlFor='companyName'>Company Name</label>
+                    {/* <label htmlFor='companyName'>Company Name</label> */}
                     <input
                         id='companyName'
                         type='text'
@@ -93,7 +95,7 @@ export default class contact extends Component {
                         onChange={ this.handleOnChange }
                     />
 
-                    <label htmlFor='InputEmail'>Email</label>
+                    {/* <label htmlFor='InputEmail'>Email</label> */}
                     <input
                         id='Inputemail'
                         type='email'
@@ -103,7 +105,7 @@ export default class contact extends Component {
                         onChange={ this.handleOnChange }
                     />
 
-                    <label htmlFor='subject'>Subject</label>
+                    {/* <label htmlFor='subject'>Subject</label> */}
                     <input
                         id='subject'
                         type='text'
@@ -121,15 +123,16 @@ export default class contact extends Component {
                         rows='5'
                         value={ message }
                         onChange={ this.handleOnChange }
+                        placeholder='Message'
                     ></textarea>
 
                     <input type="submit" value='Send' />
                 </form>
                 <Social />
-                <div className='images'>
-                    {/* <img className="bottom-img" src="https://bit.ly/2OmNqdV" alt="" /> */ }
-                    {/* <img className="top-img" src="" alt="" /> */ }
-                </div>
+                {/* <div className='images'>
+                    <img className="bottom-img" src="https://bit.ly/2OmNqdV" alt="" /> 
+                    <img className="top-img" src="" alt="" />
+                </div> */}
 
 
             </div>

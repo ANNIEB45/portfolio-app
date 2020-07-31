@@ -9,7 +9,7 @@ import './contact.css'
 export default class social extends Component {
     render() {
         return (
-            <div>
+            <div className="social-container">
                 <div className='social-title'>Follow Me</div>
                 <div className='social-links'>
 
