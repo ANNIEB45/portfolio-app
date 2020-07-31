@@ -11,7 +11,7 @@ export default class intro extends Component {
                     <h1>Hi...
                     <br />I'm <span>Annie</span></h1>
                     {/* <h2>Yes, I am ok...</h2> */ }
-                    <p>Software Developer, Food Enthusiast, Committed Smiler</p>
+                    <p>Software Developer, Food Enthusiast, Curiosity hasn't killed me yet</p>
 
                 </div>
                 <div className="scrolling">

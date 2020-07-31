@@ -30,7 +30,7 @@ export default class about extends Component {
                     <div className='about-paragraph'>
                         <div className="paragraph-container">
                             <h2>About Me</h2>
-                            <h4>I am Software Engineer</h4>
+                            <h4>I am Software Engineer based in Atlanta, GA</h4>
                             <p>Since middle I've toyed with programming. First in (some program) and now in Software Development. For the past two years I've learned.</p>
                             <p>I am excited to begin my journey as a Software Engineer.</p>
                             <div className="cv-link">
