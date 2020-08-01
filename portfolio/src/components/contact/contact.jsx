@@ -97,7 +97,7 @@ export default class contact extends Component {
 
                     {/* <label htmlFor='InputEmail'>Email</label> */}
                     <input
-                        id='Inputemail'
+                        id='inputEmail'
                         type='email'
                         name='email'
                         placeholder='Enter Your Email'
@@ -126,7 +126,7 @@ export default class contact extends Component {
                         placeholder='Message'
                     ></textarea>
 
-                    <input type="submit" value='Send' />
+                    <input type="submit" value='Send' className='button' />
                 </form>
                 <Social />
                 {/* <div className='images'>
