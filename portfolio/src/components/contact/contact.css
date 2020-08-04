@@ -112,7 +112,6 @@
     margin: 10px 0;
     width: 40%;
     position: relative !important;
-
 }
 
 .contact .bottom-img{
@@ -126,6 +125,7 @@
     vertical-align: middle;
     width: 70%;
 }
+
 .top-img{
     /* height: 153px; */
     position: absolute;
