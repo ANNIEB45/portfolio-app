@@ -34,7 +34,7 @@ export default class about extends Component {
                             <p>Since middle I've toyed with programming. First in (some program) and now in Software Development. For the past two years I've learned.</p>
                             <p>I am excited to begin my journey as a Software Engineer.</p>
                             <div className="cv-link">
-                                <a href="#">Download CV</a>
+                                <a href="#">Download Resume</a>
                             </div>
                         </div>
                     </div>

@@ -101,6 +101,11 @@
     padding: 15px 0;
 }
 
+.button:hover{
+    background-color: white;
+    color: black
+}
+
 .images{
     display: flex;
     margin-left: 30px;

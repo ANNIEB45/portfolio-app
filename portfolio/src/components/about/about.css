@@ -58,6 +58,11 @@
     text-align: center;
     text-decoration: none;
 }
+
+.cv-link a:hover{
+    background-color: white;
+    color: black;
+}
 .image-container{
     display: flex;
     width: 100%;
@@ -85,7 +90,10 @@
     flex-wrap: wrap;
     position: absolute;
     top: 26px;
-    left: 98px;
+    left: 100px;
     background-color: yellow;
     padding: 8px;
+}
+ .social-icon a{
+    margin: 10px 5px;
 }

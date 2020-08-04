@@ -20,9 +20,12 @@
     /* text-decoration: line-through; */
     color: yellow;
     opacity: 0.3;
-
 }
 
+.header .signature:hover{
+    color: white;
+    opacity: 1;
+}
 .header-links{
     margin-right: 60px;
     display: flex;
