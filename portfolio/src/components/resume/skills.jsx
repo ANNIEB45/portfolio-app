@@ -22,7 +22,7 @@ export default class skills extends Component {
                         <img src="nodejs.png" alt="Node JS logo" />
                         <img src="trello.png" alt="Trello logo" />
                         <img src="/mysql.png" alt="MySQL logo" />
-                        <img src="java.png" alt="Java logo" />
+                        {/* <img src="java.png" alt="Java logo" /> */}
                         <img src="react.png" alt="React logo" />
                     </div>
                 </div>
