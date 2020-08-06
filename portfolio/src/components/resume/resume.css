@@ -61,7 +61,13 @@
     position: relative;
     left: 20px;
     border-radius: 6px;
+    transition: 2s;
 
+}
+
+.skills-icon img:hover{
+  left: 48px;
+  background-color: black;
 }
 /* #image{
     position: relative;
