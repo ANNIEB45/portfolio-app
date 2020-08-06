@@ -70,10 +70,11 @@
     position: relative;
     padding: 0 15px 0 15px;
     margin-top: 1rem !important;
+    top: 34px;
 }
 
 .about img {
-    height: 330px;
+    height: 450px;
     max-width: 100%;
     width: 75%;
     border: 1px solid gray;
@@ -89,10 +90,11 @@
     flex-direction: column;
     flex-wrap: wrap;
     position: absolute;
-    top: 26px;
-    left: 100px;
+    top: 45px;
+    left: 99px;
     background-color: yellow;
-    padding: 8px;
+    padding: 30px 8px;
+    width: 7%;
 }
 
  .social-icon a{

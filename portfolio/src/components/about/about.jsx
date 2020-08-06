@@ -12,7 +12,7 @@ export default class about extends Component {
             <div className='about'>
                 <div className='about-container'>
                     <div className='image-container'>
-                        <img src="https://cdn2.lamag.com/wp-content/uploads/sites/6/2017/07/issa.jpg" alt="placeholder of Issa Rae" />
+                        <img src="relaxme.jpeg" alt="placeholder of Issa Rae" />
 
                         <div className="social-icon">
                             <a href='https://www.linkedin.com/in/annie-t-bellefleur-04a696a7/' target='_blank' rel="noopener noreferrer">
@@ -35,7 +35,7 @@ export default class about extends Component {
                             <p>Since middle I've toyed with programming. First in (some program) and now in Software Development. For the past two years I've learned.</p>
                             <p>I am excited to begin my journey as a Software Engineer.</p>
                             <div className="cv-link">
-                                <a href="#">Download Resume</a>
+                                <a href="https://docs.google.com/document/d/10LXleEpoC5WfVAW0LwAebWp6MCOGJ7Ulb5bw42Gv29Q/edit?usp=sharing">Download Resume</a>
                             </div>
                         </div>
                     </div>
