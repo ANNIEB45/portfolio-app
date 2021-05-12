@@ -8,7 +8,7 @@
     "create-react-app": "^3.4.1",
     "express": "^4.17.1",
     "mongoose": "^5.9.21",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.16",
     "nodemon": "^2.0.4",
     "portfolio": "^0.1.0"
   },
